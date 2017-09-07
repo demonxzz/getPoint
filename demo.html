@@ -26,7 +26,7 @@
 	var myGeo = new BMap.Geocoder();
 
 	// 将地址解析结果显示在地图上,并调整地图视野
-	myGeo.getPoint("郑州市绿地之窗", function(point){
+	myGeo.getPoint("北京市水立方", function(point){
 		if (point) {
 
 			map.centerAndZoom(point, 16);
